@@ -1,0 +1,6 @@
+name = 'pages'
+dev.port = 9787
+pages_build_output_dir = 'src'
+services = [
+  { binding = "API", service = "api" }
+]
