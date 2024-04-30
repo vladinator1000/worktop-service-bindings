@@ -15,4 +15,8 @@ router.add('GET', '/', (_request, context) => {
 	return new Response('Hello from Worktop!');
 });
 
+router.prepare = (req, context) => {
+	console.log(req);
+};
+
 export default start(router.run);
