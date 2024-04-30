@@ -1,7 +1,7 @@
 // This works
 // export default {
 // 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
-// 		return new Response('Hello from API!');
+// 		return new Response('Hello from the vanilla worker!');
 // 	},
 // };
 
