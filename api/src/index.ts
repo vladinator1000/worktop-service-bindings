@@ -15,6 +15,4 @@ router.add('GET', '/', (_request, context) => {
 	return new Response('Hello from Worktop!');
 });
 
-export default {
-	...start(router.run),
-};
+export default start(router.run);
